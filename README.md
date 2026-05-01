@@ -1,31 +1,31 @@
 # Brute-Force-Attack-Incident-Response-Analysis
 
 ## Objective
-[Brief Objective - Remove this afterwards]
+To simulate and analyze a brute-force attack on an authentication system, and demonstrate structured incident response handling using the National Institute of Standards and Technology (NIST) Cybersecurity Framework.
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+## Project Description
+In this project I conducted an incident response analysis of a simulated brute-force attack that affected user authentication systems. Employees experienced login failures due to repeated unauthorized access attempts from a suspicious external IP address.
+
+I used a structured approach based on the NIST Cybersecurity Framework, to identify the root cause of the attack, implement containment measures, enhance detection capabilities, and restore system functionality.
+
+This project demonstrates practical knowledge of incident handling, threat detection, and security improvement strategies within a SOC environment.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
+- Incident response analysis and reporting.
+- Understanding of brute-force attack techniques.
+- Application of the NIST Cybersecurity Framework.
+- Log analysis and event correlation.
+- Security control implementation.
+- Incident containment and recovery strategies.
+- Security documentation and communication.
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
-
-### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
-
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+### Tools and Framework Used
+- Splunk Enterprise for log monitoring and analysis
+- Google Docs for documentation and reporting
+- National Institute of Standards and Technology (NIST) Cybersecurity Framework for structured incident response
+  
+## Key Findings
+- A single external IP was responsible for repeated failed login attempts
+- Lack of account lockout policies enabled the brute-force attack
+- Absence of monitoring delayed detection
+- Implementing SIEM monitoring significantly improves threat visibility and response time
